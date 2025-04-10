@@ -20,6 +20,7 @@ module.exports.showListing = async (req,res)=>{
            },
 
        })
+       
        .populate("owner");
     if(!listing){
        req.flash("error", "Listing You reuested for does not exist!");

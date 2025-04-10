@@ -323,6 +323,7 @@ const sampleListings = [
     location: "Maldives",
     country: "Maldives",
   },
+  
   {
     title: "Ski Chalet in Aspen",
     description:
